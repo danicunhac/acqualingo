@@ -1,0 +1,157 @@
+{
+  "vetor": [
+    {
+      "question": "O que é água?",
+      "options": [
+        {
+          "label": "Recurso natural necessário.",
+          "value": true
+        },
+        {
+          "label": "É um recurso infinito que necessitamos para nossa sobrevivência.",
+          "value": false
+        },
+        {
+          "label": "É um recurso natural necessário composto por um molécula de oxigênio e duas de carbono.",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Qual a fórmula química da água?",
+      "options": [
+        {
+          "label": "H2O",
+          "value": true
+        },
+        {
+          "label": "H2C",
+          "value": false
+        },
+        {
+          "label": "H10",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Qual o grau de evaporação da água?",
+      "options": [
+        {
+          "label": "100°C",
+          "value": true
+        },
+        {
+          "label": "150°C",
+          "value": false
+        },
+        {
+          "label": "99°C",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "O que são os Objetivos de Desenvolvimento Sustentável (ODS) e qual sua importância?",
+      "options": [
+        {
+          "label": "Os ODS são uma iniciativa sustentável disponibilizada pela ONU em 2015, com o intuito de sensibilizar a população global sobre o limite do planeta e promover um desenvolvimento sustentável com o propósito de erradicar a pobreza, proteger o meio ambiente e melhorar a qualidade de vida até 2030.",
+          "value": true
+        },
+        {
+          "label": "Os ODS são um conjunto de diretrizes para o desenvolvimento de armas sustentáveis para fins de defesa global. Sua importância reside em fortalecer as capacidades militares dos países.",
+          "value": false
+        },
+        {
+          "label": "Os ODS são um programa global para promover o consumo excessivo e o desperdício, pois acreditamos que isso afetará a economia global. Sua importância é estimular o crescimento econômico por meio do consumo desenvolvido.",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Quais são os ODS relacionados à água?",
+      "options": [
+        {
+          "label": "ODS 06 e 14.",
+          "value": true
+        },
+        {
+          "label": "ODS 07 e 15.",
+          "value": false
+        },
+        {
+          "label": "ODS 06 e 14.",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Qual a importância da água para a regulamentação da temperatura do corpo?",
+      "options": [
+        {
+          "label": "A água é responsável pela temperatura corporal de acordo com a nossa necessidade térmica em dias mais quentes por meio do suor, a função do suor é liberar água para reduzir a temperatura corporal.",
+          "value": true
+        },
+        {
+          "label": "A água  não desempenha papel algum na regulação térmica do corpo humano.",
+          "value": false
+        },
+        {
+          "label": "A água só é importante para a regulação da temperatura em ambientes frios, não em ambientes quentes.",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Quais os impactos da poluição da água no meio ambiente?",
+      "options": [
+        {
+          "label": "Com a poluição contínua nas águas, a água contaminada causa eutrofização que consequentemente mata os seres vivos presentes na água devido a falta de oxigênio para suprir a necessidade dos animais.",
+          "value": true
+        },
+        {
+          "label": "A poluição da água contribui para o aumento da biodiversidade aquática.",
+          "value": false
+        },
+        {
+          "label": "A poluição da água não afeta a qualidade da água contaminada para seres humanos e animais.",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Quais são as três propriedades físicas da água?",
+      "options": [
+        {
+          "label": "Líquido, sólido e gasoso.",
+          "value": true
+        },
+        {
+          "label": "Sólido, líquido e sólido.",
+          "value": false
+        },
+        {
+          "label": "Líquido, gasoso e glacial.",
+          "value": false
+        }
+      ]
+    },
+    {
+      "question": "Porque o ciclo da água é importante?",
+      "options": [
+        {
+          "label": "O ciclo da água se faz importante por ser um recurso finito e sem o mesmo ocasiona a falta da água no planeta, consequentemente matando os seres vivos da  terra.",
+          "value": true
+        },
+        {
+          "label": "O ciclo da água é crucial porque permite que os oceanos renovem com água potável, tornando-se assim uma fonte inesgotável de água doce",
+          "value": false
+        },
+        {
+          "label": "O ciclo da água é importante porque mantém o equilíbrio da população global de peixes, permitindo-lhes migrar facilmente entre os oceanos e lagos.",
+          "value": false
+        }
+      ]
+    }
+  ]
+}
