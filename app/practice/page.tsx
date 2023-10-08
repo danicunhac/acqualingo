@@ -145,10 +145,10 @@ export default function Practice() {
                     });
                   }
 
+                  setQuestion(questions[answeredQuestions + 1]);
                   setAnsweredQuestions(
                     (prevAnsweredQuestions) => prevAnsweredQuestions + 1
                   );
-                  setQuestion(questions[answeredQuestions + 1]);
                 }}
               >
                 {label}
