@@ -85,12 +85,6 @@ export default function Home() {
               Embark on this adventure of discovery about water and the impacts
               that our ecosystem has been suffering.
             </p>
-            <Link
-              href="#start"
-              className={`${inter.className} justify-center flex uppercase w-[25%] text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-[#] font-medium rounded-full shadow px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200`}
-            >
-              Embark
-            </Link>
           </div>
 
           <Image
@@ -101,8 +95,20 @@ export default function Home() {
             height={500}
           />
         </div>
-
-        <div className="flex flex-col mt-32 w-full gap-32">
+        <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+          <svg
+            className="w-6 h-6 text-teal-500"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </div>
+        <div className="flex flex-col mt-24 w-full gap-32">
           {metadata.map((item) => (
             <div
               id={item.id === 1 ? 'start' : item.id.toString()}
