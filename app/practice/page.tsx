@@ -67,7 +67,9 @@ export default function Home() {
             Acqualingo
           </Link>
           <div className="flex gap-32 uppercase font-normal">
-            <Link href="/">Home</Link>
+            <Link className="font-extrabold	" href="/">
+              Home
+            </Link>
             <Link href="#practice">Practice</Link>
             <Link href="https://github.com/danicunhac/acqualingo">Contact</Link>
             <Link href="">About</Link>
@@ -83,12 +85,12 @@ export default function Home() {
               Embark on this adventure of discovery about water and the impacts
               that our ecosystem has been suffering.
             </p>
-            <button
-              type="button"
+            <Link
+              href="#start"
               className={`${inter.className} justify-center flex uppercase w-[25%] text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-[#] font-medium rounded-full shadow px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200`}
             >
               Embark
-            </button>
+            </Link>
           </div>
 
           <Image
@@ -102,7 +104,11 @@ export default function Home() {
 
         <div className="flex flex-col mt-32 w-full gap-32">
           {metadata.map((item) => (
-            <div key={item.id} className="flex justify-between">
+            <div
+              id={item.id === 1 ? 'start' : item.id.toString()}
+              key={item.id}
+              className="flex justify-between"
+            >
               {item.imagePosition === 'left' ? (
                 <Image
                   src="/cute-whale.svg"

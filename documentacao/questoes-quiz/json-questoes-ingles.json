@@ -1,157 +1,155 @@
-{
-  "vetor": [
-    {
-      "question": "What is water?",
-      "options": [
-        {
-          "label": "A necessary natural resource.",
-          "value": true
-        },
-        {
-          "label": "An infinite resource needed to our survival.",
-          "value": false
-        },
-        {
-          "label": "It's a necessary natural resource made by a single oxygen molecule and two carbon molecules.",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "What is the water chemical formula?",
-      "options": [
-        {
-          "label": "H2O",
-          "value": true
-        },
-        {
-          "label": "H2C",
-          "value": false
-        },
-        {
-          "label": "H10",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "At what temperature does water evaporate?",
-      "options": [
-        {
-          "label": "100°C",
-          "value": true
-        },
-        {
-          "label": "150°C",
-          "value": false
-        },
-        {
-          "label": "99°C",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "What are the Sustainable Development Goals (SDGs) and how important are they?",
-      "options": [
-        {
-          "label": "The SDGs are a sustainable initiative made available by the UN in 2015, with the aim of raising awareness among the global population about the limits of the planet and promoting sustainable development with the purpose of eradicating poverty, protecting the environment and improving the quality of life by 2030.",
-          "value": true
-        },
-        {
-          "label": "The SDGs are a set of guidelines for developing sustainable weapons for global defense purposes. Its importance lies in strengthening the military capabilities of countries.",
-          "value": false
-        },
-        {
-          "label": "The SDGs are a global program to promote overconsumption and waste as we think this will affect the global economy. Its importance is to stimulate economic growth through developed consumption.",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "Which SDGs are related to water?",
-      "options": [
-        {
-          "label": "SDGs 06 and 14.",
-          "value": true
-        },
-        {
-          "label": "SDGs 07 and 15.",
-          "value": false
-        },
-        {
-          "label": "SDGs 06 and 14.",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "How important is water for regulating body temperature?",
-      "options": [
-        {
-          "label": "Water is responsible for body temperature according to our thermal need on hotter days through sweat, the function of sweat is to release water to reduce body temperature.",
-          "value": true
-        },
-        {
-          "label": "Water plays no role in the thermal regulation of the human body.",
-          "value": false
-        },
-        {
-          "label": "Water is only important to temperature regulation in cold environments, but not in warm ones.",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "What are the impacts of water pollution on the environment?",
-      "options": [
-        {
-          "label": "The continuous water pollution causes water eutrophication and consequently kills that water living beeings duo to lack of oxygen.",
-          "value": true
-        },
-        {
-          "label": "Water pollution contributes to increase aquatic biodiversity.",
-          "value": false
-        },
-        {
-          "label": "Water pollution doesn't affect water quality to humans or animals.",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "Which are the three physical properties of water?",
-      "options": [
-        {
-          "label": "Liquid, solid and gaseous.",
-          "value": true
-        },
-        {
-          "label": "Solid, liquid and ice.",
-          "value": false
-        },
-        {
-          "label": "Liquid, gaseous and glacial.",
-          "value": false
-        }
-      ]
-    },
-    {
-      "question": "Why is the water cycle so important?",
-      "options": [
-        {
-          "label": "The water cycle is important because it's a finite resource and without it causes lack of water on the planet, consequently killing the living beeings.",
-          "value": true
-        },
-        {
-          "label": "The water cycle is crucial, it allows the oceans to renovate with potable water this becoming an inexhaustible source of fresh water.",
-          "value": false
-        },
-        {
-          "label": "The water cycle is important because it maintains the balance of the global fish population allowing them to migrate easily between oceans and lakes.",
-          "value": false
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "question": "What is water?",
+    "options": [
+      {
+        "label": "A necessary natural resource.",
+        "value": true
+      },
+      {
+        "label": "An infinite resource needed to our survival.",
+        "value": false
+      },
+      {
+        "label": "It's a necessary natural resource made by a single oxygen molecule and two carbon molecules.",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "What is the water chemical formula?",
+    "options": [
+      {
+        "label": "H2O",
+        "value": true
+      },
+      {
+        "label": "H2C",
+        "value": false
+      },
+      {
+        "label": "H10",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "At what temperature does water evaporate?",
+    "options": [
+      {
+        "label": "100°C",
+        "value": true
+      },
+      {
+        "label": "150°C",
+        "value": false
+      },
+      {
+        "label": "99°C",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "What are the Sustainable Development Goals (SDGs) and how important are they?",
+    "options": [
+      {
+        "label": "The SDGs are a sustainable initiative made available by the UN in 2015, with the aim of raising awareness among the global population about the limits of the planet and promoting sustainable development with the purpose of eradicating poverty, protecting the environment and improving the quality of life by 2030.",
+        "value": true
+      },
+      {
+        "label": "The SDGs are a set of guidelines for developing sustainable weapons for global defense purposes. Its importance lies in strengthening the military capabilities of countries.",
+        "value": false
+      },
+      {
+        "label": "The SDGs are a global program to promote overconsumption and waste as we think this will affect the global economy. Its importance is to stimulate economic growth through developed consumption.",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "Which SDGs are related to water?",
+    "options": [
+      {
+        "label": "SDGs 06 and 14.",
+        "value": true
+      },
+      {
+        "label": "SDGs 07 and 15.",
+        "value": false
+      },
+      {
+        "label": "SDGs 06 and 14.",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "How important is water for regulating body temperature?",
+    "options": [
+      {
+        "label": "Water is responsible for body temperature according to our thermal need on hotter days through sweat, the function of sweat is to release water to reduce body temperature.",
+        "value": true
+      },
+      {
+        "label": "Water plays no role in the thermal regulation of the human body.",
+        "value": false
+      },
+      {
+        "label": "Water is only important to temperature regulation in cold environments, but not in warm ones.",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "What are the impacts of water pollution on the environment?",
+    "options": [
+      {
+        "label": "The continuous water pollution causes water eutrophication and consequently kills that water living beeings duo to lack of oxygen.",
+        "value": true
+      },
+      {
+        "label": "Water pollution contributes to increase aquatic biodiversity.",
+        "value": false
+      },
+      {
+        "label": "Water pollution doesn't affect water quality to humans or animals.",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "Which are the three physical properties of water?",
+    "options": [
+      {
+        "label": "Liquid, solid and gaseous.",
+        "value": true
+      },
+      {
+        "label": "Solid, liquid and ice.",
+        "value": false
+      },
+      {
+        "label": "Liquid, gaseous and glacial.",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "Why is the water cycle so important?",
+    "options": [
+      {
+        "label": "The water cycle is important because it's a finite resource and without it causes lack of water on the planet, consequently killing the living beeings.",
+        "value": true
+      },
+      {
+        "label": "The water cycle is crucial, it allows the oceans to renovate with potable water this becoming an inexhaustible source of fresh water.",
+        "value": false
+      },
+      {
+        "label": "The water cycle is important because it maintains the balance of the global fish population allowing them to migrate easily between oceans and lakes.",
+        "value": false
+      }
+    ]
+  }
+]
