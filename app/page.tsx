@@ -10,24 +10,28 @@ const metadata = [
     title: 'Precipitation',
     text: 'As clouds become denser and heavier, water droplets come together and fall back to Earth in the form of rain, snow, or hail. This is the stage of precipitation, which replenishes water in terrestrial reservoirs. ',
     imagePosition: 'right',
+    url: '/precipitation.png',
   },
   {
     id: 2,
     title: 'Evaporation',
     text: 'It all starts with the energy of the sun heating the Earth`s surface. This energy is absorbed by water in oceans, lakes, and rivers, leading to the evaporation of water molecules, which turn into water vapor in the atmosphere.',
     imagePosition: 'left',
+    url: '/evaporation.png',
   },
   {
     id: 3,
     title: 'Condensation',
     text: 'Water vapor rises into the atmosphere, where the temperature is lower. This leads to condensation, in which the vapor clusters together to form small water droplets, creating clouds. This process is crucial for cloud formation.',
     imagePosition: 'right',
+    url: '/condensation.png',
   },
   {
     id: 4,
     title: 'Infiltration',
     text: 'Precipitation water infiltrates the soil, where it is absorbed by plants or flows into groundwater. Part of it also flows into rivers and streams, feeding aquatic ecosystems.',
     imagePosition: 'left',
+    url: '/infiltration.png',
   },
   {
     id: 5,
@@ -38,18 +42,21 @@ const metadata = [
     ),
     text: 'Plants absorb water from the soil and release it into the atmosphere through transpiration. Evapotranspiration refers to the sum of soil surface evaporation and plant transpiration. This process is vital for the continuous circulation of water in the biosphere.',
     imagePosition: 'right',
+    url: '/vaporization.svg',
   },
   {
     id: 6,
     title: 'Runoff to streams',
     text: 'Water that is not absorbed by the soil or plants flows into rivers and streams, forming river systems that provide freshwater for various purposes, from public supply to agriculture.',
     imagePosition: 'left',
+    url: '/streams.png',
   },
   {
     id: 7,
     title: 'Runoff to ocean',
     text: 'Finally, water flows back to the oceans, where the cycle begins again with evaporation.',
     imagePosition: 'right',
+    url: '/ocean.png',
   },
 ];
 
@@ -85,12 +92,6 @@ export default function Home() {
             >
               Contact
             </Link>
-            <Link
-              className="dark:bg-[#5DD2CE] rounded p-2 font-extrabold"
-              href=""
-            >
-              About
-            </Link>
           </div>
         </div>
 
@@ -119,7 +120,6 @@ export default function Home() {
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
@@ -135,9 +135,9 @@ export default function Home() {
             >
               {item.imagePosition === 'left' ? (
                 <Image
-                  src="/cute-whale.svg"
+                  src={item.url ?? '/cute-whale.svg'}
                   alt="Cute whale"
-                  width={300}
+                  width={200}
                   height={200}
                 />
               ) : null}
@@ -151,9 +151,9 @@ export default function Home() {
               </div>
               {item.imagePosition === 'right' ? (
                 <Image
-                  src="/cute-whale.svg"
+                  src={item.url ?? '/cute-whale.svg'}
                   alt="Cute whale"
-                  width={300}
+                  width={200}
                   height={200}
                 />
               ) : null}
@@ -179,6 +179,73 @@ export default function Home() {
             are crucial to preserving this delicate and essential balance for
             life on Earth.
           </h2>
+          {/** CO2 */}
+          <div className="w-full flex flex-col gap-y-8 max-w-[50%]">
+            <h3 className="font-bold text-3xl max-w-[900px] leading-tight uppercase">
+              The increase of carbon dioxide (CO2) in the atmosphere
+            </h3>
+            <p className={`${inter.className} text-base font-extralight`}>
+              Due to human activities, such as burning fossil fuels, this causes
+              significant impacts on water and the water cycle. Below are some
+              ways in which the increase in CO2 affects water.
+            </p>
+          </div>
+
+          <div className="w-full flex flex-col gap-y-8 max-w-[50%] self-end">
+            <h3 className="font-bold text-3xl max-w-[900px] leading-tight uppercase">
+              Ocean Acidification
+            </h3>
+            <p className={`${inter.className} text-base font-extralight`}>
+              Excess CO2 in the atmosphere is absorbed by the oceans, where it
+              reacts with water to form carbonic acid. This leads to ocean
+              acidification, making the waters more acidic. This can harm marine
+              organisms, such as corals and mollusks, that have shells or
+              skeletons made of calcium carbonate, as it makes it harder for
+              them to build and maintain these structures.
+            </p>
+          </div>
+
+          <div className="w-full flex flex-col gap-y-8 max-w-[50%]">
+            <h3 className="font-bold text-3xl max-w-[900px] leading-tight uppercase">
+              Water Heating
+            </h3>
+            <p className={`${inter.className} text-base font-extralight`}>
+              The increase of CO2 in the atmosphere contributes to global
+              warming, which also heats up ocean waters and affects marine
+              ecosystems, including coral reefs and marine life.
+            </p>
+          </div>
+
+          <div className="w-full flex flex-col gap-y-8 max-w-[50%] self-end">
+            <h3 className="font-bold text-3xl max-w-[900px] leading-tight uppercase">
+              Changes in the Hydrological Cycle
+            </h3>
+            <p className={`${inter.className} text-base font-extralight`}>
+              The increase of CO2 in the atmosphere is associated with changes
+              in precipitation patterns and the hydrological cycle. This can
+              result in more severe droughts in some regions and intense
+              rainfall in others.
+            </p>
+          </div>
+
+          <div className="w-full flex flex-col gap-y-8 max-w-[50%]">
+            <h3 className="font-bold text-3xl max-w-[900px] leading-tight uppercase">
+              Melting of Glaciers
+            </h3>
+            <p className={`${inter.className} text-base font-extralight`}>
+              The increase in temperatures due to the increase in CO2 is
+              contributing to the melting of glaciers and polar ice caps, which
+              in turn is raising sea levels and affecting coastal ecosystems.
+            </p>
+          </div>
+
+          <div className="w-full flex flex-col gap-y-8 max-w-[50%] self-end">
+            <h2 className="text-2xl uppercase font-bold">
+              Therefore, the increase of carbon dioxide in the atmosphere plays
+              a fundamental role in climate change and has significant impacts
+              on water and aquatic ecosystems worldwide.
+            </h2>
+          </div>
         </div>
         <hr className="w-full opacity-75" />
         <div

@@ -18,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/whale.svg" sizes="any" />
       <body className={jost.className}>
         {children}
         <ToastContainer />
