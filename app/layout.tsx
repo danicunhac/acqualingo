@@ -8,7 +8,7 @@ const jost = Jost({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'AcquaLingo',
-  description: 'Educação hídrica de forma divertida e acessível.',
+  description: 'Water education in a fun and accessible way.',
 };
 
 export default function RootLayout({
