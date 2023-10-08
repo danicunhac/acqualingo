@@ -8,25 +8,25 @@ const metadata = [
   {
     id: 1,
     title: 'Precipitation',
-    text: 'À medida que as nuvens se tornam mais densas e pesadas, as gotas de água se unem e caem de volta à Terra na forma de chuva, neve ou granizo. Esse é o estágio da precipitação, que repõe a água nos reservatórios terrestres.. ',
+    text: 'As clouds become denser and heavier, water droplets come together and fall back to Earth in the form of rain, snow, or hail. This is the stage of precipitation, which replenishes water in terrestrial reservoirs. ',
     imagePosition: 'right',
   },
   {
     id: 2,
     title: 'Evaporation',
-    text: 'Tudo começa com a energia do sol aquecendo a superfície da Terra. Essa energia é absorvida pela água em oceanos, lagos e rios, levando à evaporação das moléculas de água, que se transformam em vapor de água na atmosfera.',
+    text: 'It all starts with the energy of the sun heating the Earth`s surface. This energy is absorbed by water in oceans, lakes, and rivers, leading to the evaporation of water molecules, which turn into water vapor in the atmosphere.',
     imagePosition: 'left',
   },
   {
     id: 3,
     title: 'Condensation',
-    text: 'O vapor de água sobe na atmosfera, onde a temperatura é mais baixa. Isso leva à condensação, na qual o vapor se agrupa para formar pequenas gotas de água, criando nuvens. Esse processo é crucial para a formação das nuvens.',
+    text: 'Water vapor rises into the atmosphere, where the temperature is lower. This leads to condensation, in which the vapor clusters together to form small water droplets, creating clouds. This process is crucial for cloud formation.',
     imagePosition: 'right',
   },
   {
     id: 4,
     title: 'Infiltration',
-    text: 'A água da precipitação se infiltra no solo, onde é absorvida pelas plantas ou segue para os lençóis freáticos. Parte dela também flui para rios e riachos, alimentando ecossistemas aquáticos.',
+    text: 'Precipitation water infiltrates the soil, where it is absorbed by plants or flows into groundwater. Part of it also flows into rivers and streams, feeding aquatic ecosystems.',
     imagePosition: 'left',
   },
   {
@@ -36,19 +36,19 @@ const metadata = [
         (Evapo) <br /> Transpiration
       </>
     ),
-    text: 'As plantas absorvem a água do solo e a liberam na atmosfera através da transpiração. A evapotranspiração refere-se à soma da evaporação da superfície do solo e da transpiração das plantas. Esse processo é vital para a circulação contínua da água na biosfera.',
+    text: 'Plants absorb water from the soil and release it into the atmosphere through transpiration. Evapotranspiration refers to the sum of soil surface evaporation and plant transpiration. This process is vital for the continuous circulation of water in the biosphere.',
     imagePosition: 'right',
   },
   {
     id: 6,
     title: 'Runoff to streams',
-    text: 'A água que não é absorvida pelo solo ou pelas plantas flui para rios e riachos, formando sistemas fluviais que fornecem água doce para diversas finalidades, desde o abastecimento público até a agricultura.',
+    text: 'Water that is not absorbed by the soil or plants flows into rivers and streams, forming river systems that provide freshwater for various purposes, from public supply to agriculture.',
     imagePosition: 'left',
   },
   {
     id: 7,
     title: 'Runoff to ocean',
-    text: 'Finalmente, a água flui de volta para os oceanos, onde o ciclo recomeça com a evaporação.',
+    text: 'Finally, water flows back to the oceans, where the cycle begins again with evaporation.',
     imagePosition: 'right',
   },
 ];
@@ -66,13 +66,31 @@ export default function Home() {
           >
             Acqualingo
           </Link>
-          <div className="flex gap-32 uppercase font-normal">
-            <Link className="font-extrabold" href="/">
+          <div className="flex gap-32 uppercase font-normal text-xs">
+            <Link
+              className="dark:bg-[#5DD2CE] rounded p-2 font-extrabold"
+              href="/"
+            >
               Home
             </Link>
-            <Link href="#practice">Practice</Link>
-            <Link href="https://github.com/danicunhac/acqualingo">Contact</Link>
-            <Link href="">About</Link>
+            <Link
+              className="dark:bg-[#5DD2CE] rounded p-2 font-extrabold"
+              href="#practice"
+            >
+              Practice
+            </Link>
+            <Link
+              className="dark:bg-[#5DD2CE] rounded p-2 font-extrabold"
+              href="https://github.com/danicunhac/acqualingo"
+            >
+              Contact
+            </Link>
+            <Link
+              className="dark:bg-[#5DD2CE] rounded p-2 font-extrabold"
+              href=""
+            >
+              About
+            </Link>
           </div>
         </div>
 
